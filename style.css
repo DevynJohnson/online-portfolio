@@ -33,10 +33,10 @@
     margin: 0;
   }
   
-  .about,
+  /* .about,
   .work {
     margin: 10px
-  }
+  } */
 
   header {
     padding: 15px 6% 15px 0;
@@ -108,7 +108,6 @@
   main {
     margin-top: 20px;
     margin-bottom: 45px;
-    display: flex;
   }
 
   
@@ -146,17 +145,15 @@
     margin-left: auto;
     margin-right: auto;
   }
-  
+
   .page-section {
-    margin: 25px 25px;
-    padding: 10px 35px;
+    margin: 25px 0px;
+    padding: 10px 0px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     flex-wrap: wrap;
     align-items: stretch;
-    justify-content: space-evenly;
-    /* float: left; */
-    border-right: 4px solid var(--primary);
+    justify-content: space-between;
   }
   
   .page-section > h2 {
@@ -165,6 +162,7 @@
     padding-right: 15px;
     font-size: 4vw;
     line-height: 1.1;
+    border-right: 4px solid var(--primary);
   }
   
   .page-section > div {
@@ -224,7 +222,7 @@
   #contactMe address {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     height: 100%;
   }
@@ -248,19 +246,15 @@
     background-size: 100% 88%;
     color: var(--secondary);
   }
+  
 
-  footer {
-    margin: 10px;
-    padding: 10px;
-  }
-  
-  footer ul {
+  #contactMe ul {
     list-style: none;
+    display: inline;
   }
   
-  footer ul li {
+  #contactMe ul li {
     display: inline;
-    justify-content: space-between;
   }
   
   /* portfolio project images */
@@ -270,9 +264,12 @@
     background-size: cover;
     object-fit: contain;
   }
+
   
   #image2 {
-    
+    background-image: url(./Elise\ Logo\ SVG\ Gold.svg); 
+   object-fit: fill;
+   background-size: contain;
   }
   
   #image3 {
