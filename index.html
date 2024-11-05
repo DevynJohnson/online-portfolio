@@ -4,47 +4,53 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <header>
-       <nav>
-            <h1>Devyn Johnson</h1>
-            <ul>
-                <li><a href="#aboutMe">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contactMe">Contact Me</a></li>
-                <li><a href="#">Resume</a></li>
-            </ul>
-       </nav> 
-    </header>
+    <div>
+        <header>
+            <nav>
+                <h1>Devyn Johnson</h1>
+                    <ul>
+                        <li><a href="#aboutMe">About Me</a></li>
+                        <li><a href="#work">Work</a></li>
+                        <li><a href="#contactMe">Contact Me</a></li>
+                        <li><a href="#">Resume</a></li>
+                    </ul>
+            </nav> 
+        </header>
+    </div>
     
     
     <figure class="hero-banner">
-        
+        <h2>Full Stack Developer</h2>
     </figure>
     
-    <aside>
-        <div class="page-section">
+    <div class="container">
+        <aside class="page-section">
             <h2>About Me</h2>
-            <h2>Work</h2>
-            <h2>Contact Me</h2>
-        </div>
-    </aside>
-
-    <main class="flex-container">
+        </aside>
     
-
-        <section id="aboutMe">
+    
+        <main class="flex-container">
+        
+        <section class="about" id="aboutMe">
             <p>My name is Devyn Johnson and I am currently advancing my skills in web and application development through a Full Stack Coding Bootcamp with the University of Minnesota and EdX. I have a B.S. Business Management degree from Western Governors University and a background in food service management. I have a keen eye for detail, and am passionate about clean, efficient code and building applications that make a difference.</p> 
             <br>
             <p>Outside of my studies and career goals I enjoy playing ice hockey, diving into a good book, and spending quality time with my family - my wife and I are proud parents of four amazing children ages 17, 16 and twin toddlers.</p>
         </section>
-
-        <section id="work">
-            <div class="flex-item" id="image1">
+    </div>
+        <div>
+            <div class="container">
+                <aside class="page-section">
+                    <h2>Work</h2>
+                </aside>
+            
+        <section class="work" id="work">
+            <figure class="flex-item" id="image1">
             <a href="https://devynjohnson.github.io/prework-study-guide/"target="_blank"></a>
-            </div>
+            </figure>
 
             <div class="flex-item" id="image2">
             </div>
@@ -58,8 +64,16 @@
             <div class="flex-item" id="image5">
             </div>
         </section>
-    </main>
+        </div>
+        </div>
 
+        
+    </main>
+    
+    <div class="container">
+        <aside class="page-section">
+            <h2>Contact Me</h2>
+        </aside>
     <footer id="contactMe">
         <address>
             <ul>
@@ -69,5 +83,11 @@
             </ul>
         </address>
     </footer>
+    </div>
+
+    
+   
+
+    
 </body>
 </html>

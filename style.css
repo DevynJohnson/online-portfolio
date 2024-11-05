@@ -33,11 +33,15 @@
     margin: 0;
   }
   
+  .about,
+  .work {
+    margin: 10px
+  }
+
   header {
     padding: 15px 6% 15px 0;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
     background-color: var(--tertiary);
@@ -57,10 +61,12 @@
   nav {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
   }
+
   nav ul {
     list-style: none;
-    flex-direction: row;
   }
   
   nav ul li {
@@ -89,16 +95,26 @@
   nav a:last-child {
     margin-right: 0;
   }
+
+  .container {
+    display: flex;
+  }
+
+  .sidebar {
+    flex-basis: 20%;
+    padding: 20px
+  }
   
   main {
     margin-top: 20px;
     margin-bottom: 45px;
     display: flex;
   }
+
   
   .hero-banner {
     background: rgb(68, 88, 120);
-    background-image: url("../images/02-hero-bg.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
+    background-image: url("https://www.publicdomainpictures.net/pictures/80000/velka/blue-globe-banner.jpg"), linear-gradient(180deg, var(--secondary) 0%, var(--primary) 100%);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -131,27 +147,22 @@
     margin-right: auto;
   }
   
-  aside {
-    height: 100%;
-  }
-  
   .page-section {
-    margin: 25px 0;
-    padding: 10px 0;
+    margin: 25px 25px;
+    padding: 10px 35px;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-items: stretch;
-    justify-content: space-between;
-    float: left;
-    height: 100%;
+    justify-content: space-evenly;
+    /* float: left; */
+    border-right: 4px solid var(--primary);
   }
   
   .page-section > h2 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
-    border-right: 4px solid var(--primary);
     font-size: 4vw;
     line-height: 1.1;
   }
@@ -167,7 +178,7 @@
   .flex-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: row;
   }
   
   .flex-item {
@@ -237,6 +248,11 @@
     background-size: 100% 88%;
     color: var(--secondary);
   }
+
+  footer {
+    margin: 10px;
+    padding: 10px;
+  }
   
   footer ul {
     list-style: none;
@@ -244,27 +260,30 @@
   
   footer ul li {
     display: inline;
+    justify-content: space-between;
   }
   
   /* portfolio project images */
   /* TODO: Add portfolio project images here using background images*/
   #image1 {
     background-image: url(https://imgs.search.brave.com/mTGEx-I1Pajf5PlBiADyoTvSEgnzBzZnpRLPoukN0AQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by93/aXNkb20tbGVhcm5p/bmcta25vd2xlZGdl/LWNsYXNzLXN0dWR5/LWNvbmNlcHRfNTM4/NzYtMTMzOTgyLmpw/Zz9zaXplPTYyNiZl/eHQ9anBn);
+    background-size: cover;
+    object-fit: contain;
   }
   
-  .led-wall {
+  #image2 {
     
   }
   
-  .react-calc {
+  #image3 {
     
   }
   
-  .pastel-puzzles {
+  #image4 {
     
   }
   
-  .surf-report {
+  #image5 {
     
   }
   
