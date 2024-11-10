@@ -260,33 +260,33 @@ main {
 /* portfolio project images */
 /* TODO: Add portfolio project images here using background images*/
 #image1 {
-  background-image: url(https://imgs.search.brave.com/mTGEx-I1Pajf5PlBiADyoTvSEgnzBzZnpRLPoukN0AQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWcu/ZnJlZXBpay5jb20v/ZnJlZS1waG90by93/aXNkb20tbGVhcm5p/bmcta25vd2xlZGdl/LWNsYXNzLXN0dWR5/LWNvbmNlcHRfNTM4/NzYtMTMzOTgyLmpw/Zz9zaXplPTYyNiZl/eHQ9anBn);
+  background-image: url(https://as2.ftcdn.net/v2/jpg/00/84/60/25/1000_F_84602505_CbgZtlxEktGN0wfLfTQMuRNvBau4mujo.jpg);
   background-size: cover;
   object-fit: contain;
 }
 
 #image2 {
-  background-image: url(./Elise\ Logo\ SVG\ Gold.svg);
-  object-fit: fill;
-  background-size: contain;
+  background-image: url(https://as2.ftcdn.net/v2/jpg/00/98/47/75/1000_F_98477592_BDuSsGUQDiTO48kwtqh5d4Rhxrc1NaHP.jpg);
+  background-size: cover;
+  object-fit: contain;
 }
 
 #image3 {
-  background-image: url(https://www.publicdomainpictures.net/pictures/250000/velka/coming-soon.jpg);
-  background-size: contain;
-  object-fit: fill;
+  background-image: url(https://as2.ftcdn.net/v2/jpg/04/39/66/91/1000_F_439669142_l0LXMiIE5kVufcJqiQ2ILedIIIZcgKDH.jpg);
+  background-size: cover;
+  object-fit: contain;
 }
 
 #image4 {
-  background-image: url(https://www.publicdomainpictures.net/pictures/250000/velka/coming-soon.jpg);
+  background-image: url(https://as2.ftcdn.net/v2/jpg/03/53/83/93/1000_F_353839328_nYW2cp3gIjpJD9Supel4HsGVU9Ear4iV.jpg);
   background-size: contain;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 #image5 {
-  background-image: url(https://www.publicdomainpictures.net/pictures/250000/velka/coming-soon.jpg);
+  background-image: url(https://as2.ftcdn.net/v2/jpg/03/53/83/93/1000_F_353839328_nYW2cp3gIjpJD9Supel4HsGVU9Ear4iV.jpg);
   background-size: contain;
-  object-fit: fill;
+  object-fit: contain;
 }
 
 /* media queries */
