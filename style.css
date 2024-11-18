@@ -4,11 +4,11 @@
 
 /* brand color palette */
 :root {
-  --primary: rgba(68, 88, 119, 1);
-  --secondary: rgba(146, 204, 206, 1);
-  --tertiary: rgba(49, 52, 61, 1);
-  --dark: rgba(28, 29, 33, 1);
-  --light: rgba(238, 238, 247, 1);
+  --primary: rgb(49, 45, 45);
+  --secondary: rgb(48, 158, 221);
+  --tertiary: rgb(42, 43, 46);
+  --dark: rgb(0, 0, 0);
+  --light: rgb(238, 241, 247);
 }
 
 body {
@@ -130,14 +130,26 @@ main {
   flex: 0 0 90%;
 }
 
-.hero-banner h2 {
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end; /* Ensure children align to the end */
+}
+
+.hero-banner h2,
+.hero-banner p {
+  display: inline-block;
   background-color: var(--secondary);
   color: var(--tertiary);
   margin: 0;
   padding: 5px 10px;
-  font-size: 2.3rem;
+  font-size: 2.3rem; /* Adjust font size for h2 */
   line-height: 1.2;
-  display: inline;
+}
+
+.hero-banner p {
+  font-size: 1.3rem; /* Adjust font size for p */
 }
 
 .page-wrapper {
@@ -207,7 +219,7 @@ main {
 }
 
 .flex-item:hover {
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.1);
 }
 
 .flex-item div {
