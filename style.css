@@ -290,8 +290,8 @@ main {
 }
 
 #image4 {
-  background-image: url(https://as2.ftcdn.net/v2/jpg/03/53/83/93/1000_F_353839328_nYW2cp3gIjpJD9Supel4HsGVU9Ear4iV.jpg);
-  background-size: contain;
+  background-image: url(./assets/motorcycleWheelie.jpg);
+  background-size: cover;
   object-fit: contain;
 }
 
